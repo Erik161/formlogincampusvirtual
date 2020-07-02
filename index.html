@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Formulario Admin Campus virtual</title>
 </head>
 <body>
@@ -16,18 +17,19 @@
             </div>
 
             <div class="grupo">
-                <input type="password" name="" id="name" required><span class="barra"></span>
+                <span class="eye" onclick="myFunction()">
+                    <i id="hide1" class="fa fa-eye"></i>
+                    <i id="hide2" class="fa fa-eye-slash"></i>
+                </span>
+                <input type="password" name="" id="myInput" required><span class="barra"></span>
                 <label for="">Contraseña</label>
             </div>
 
-            <button type="submit">INGRESAR</button>
+            <button type="submit" >INGRESAR</button>
         </div>
-
-
-
 
     </form>
 
-
+<script src="main.js" ></script>
 </body>
 </html>

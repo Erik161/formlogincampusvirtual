@@ -1,7 +1,12 @@
+
+/*
+VARIABLE CSS PARA DARLE COLOR A LOS INPUTS
+****************************
+****************************
+*/
 :root{
     --colorTextos:#49454567;
 }
-
 
 *::before,
 ::after{
@@ -13,8 +18,8 @@
 body{
     font-family: 'Roboto';
     background: #1A2980;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980); /*  coloca los colores del degradado */  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980); /*  coloca los colores del degradado */  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 650px;
     display: flex;
     justify-content: center;
@@ -27,10 +32,17 @@ h1{
     font-weight: 700;
 }
 
+
+/*
+FORMULARIO,INPUTS AND LABELS
+****************************
+****************************
+*/
+
 form{
     background: #fff;
     padding: 40px 0;
-    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);/* Sombra en la parte de atras del form. */
     border-radius: 10px;
 }
 
@@ -77,6 +89,15 @@ input:valid~label {
     color: #2196f3;
 }
 
+
+
+
+/*
+DELINIADO INPUTS
+****************************
+****************************
+*/
+
 .barra{
     position: relative;
     display: block;
@@ -94,11 +115,35 @@ input:valid~label {
     left: 0;
 }
 
-
 input:focus~.barra::before{
     width: 100%;
 }
 
+
+
+
+/*
+FONTAWESOME ICON EYES
+****************************
+****************************
+*/
+
+.fa{
+    margin-right: 10px;
+}
+.eye{
+    position: absolute;
+}
+#hide1{
+    display: none;
+}
+
+
+/*
+BOTON CON DEGRADADO
+****************************
+****************************
+*/
 button{
     font-family: 'Roboto';
     background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
@@ -112,6 +157,9 @@ button{
     font-size: 16px;
     cursor: pointer;
 }
+
+
+
 
 @media screen and (max-width:500px){
     form{

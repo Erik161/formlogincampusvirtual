@@ -166,6 +166,25 @@ RESPONSIVE DESIGN MOBILE
 ****************************
 */
 
+@media screen and (max-width:480px)and (min-width: 320px){
+    form{
+        width: 100%;
+    }
+    body{
+        height: 300px;
+    }
+
+    button{
+        width: 60%;
+        margin: 10px auto;
+        color: white;
+        height: 40px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    }
+
 
 @media screen and (max-width:768px)and (min-width: 320px){
     form{
@@ -209,6 +228,25 @@ RESPONSIVE DESIGN MOBILE
 
 
 
+        @media screen and (max-width:1024px)and (min-width: 600px){
+            form{
+                width: 80%;
+            }
+            body{
+                height: 850px;
+            }
+
+            button{
+                width: 60%;
+                margin: 10px auto;
+                color: white;
+                height: 40px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+            }
+
 
     @media screen and (max-width:1280px)and (min-width: 768px){
         form{
@@ -228,3 +266,4 @@ RESPONSIVE DESIGN MOBILE
         }
 
         }
+

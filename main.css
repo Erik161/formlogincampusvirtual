@@ -129,7 +129,7 @@ FONTAWESOME ICON EYES
 */
 
 .fa{
-    margin-right: 10px;
+    margin-left:200px;
 }
 .eye{
     position: absolute;
@@ -171,7 +171,7 @@ RESPONSIVE DESIGN MOBILE
         width: 100%;
     }
     body{
-        height: 300px;
+        height: auto;
     }
 
     button{
@@ -192,7 +192,7 @@ RESPONSIVE DESIGN MOBILE
     }
 
     body{
-        height: 600px;
+        height: 500px;
     }
 
     button{
@@ -209,7 +209,7 @@ RESPONSIVE DESIGN MOBILE
 
 @media screen and (max-width:640px)and (min-width: 360px){
         form{
-            width: 100%;
+            width: 90%;
         }
         body{
             height: 550px;
@@ -224,13 +224,140 @@ RESPONSIVE DESIGN MOBILE
             cursor: pointer;
         }
 
+        /*
+            FONTAWESOME ICON EYES
+            ****************************
+            ****************************
+            */
+
+            .fa{
+                margin-left:220px;
+            }
+            .eye{
+                position: absolute;
+            }
+            #hide1{
+                display: none;
+            }
+
         }
+
+
+        @media screen and (max-width:812px)and (min-width: 375px){
+            form{
+                width: 80%;
+            }
+            body{
+                height: 750px;
+            }
+
+            button{
+                width: 60%;
+                margin: 10px auto;
+                color: white;
+                height: 40px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+            /*
+                FONTAWESOME ICON EYES
+                ****************************
+                ****************************
+                */
+
+                .fa{
+                    margin-left:190px;
+                }
+                .eye{
+                    position: absolute;
+                }
+                #hide1{
+                    display: none;
+                }
+
+
+                @media screen and (max-width:640px)and (min-width: 384px){
+                    form{
+                        width: 80%;
+                    }
+                    body{
+                        height: 550px;
+                    }
+
+                    button{
+                        width: 60%;
+                        margin: 10px auto;
+                        color: white;
+                        height: 40px;
+                        font-size: 16px;
+                        cursor: pointer;
+                    }
+
+                    /*
+                        FONTAWESOME ICON EYES
+                        ****************************
+                        ****************************
+                        */
+
+                        .fa{
+                            margin-left:190px;
+                        }
+                        .eye{
+                            position: absolute;
+                        }
+                        #hide1{
+                            display: none;
+                        }
+
+
+
+
+
+
+
+        @media screen and (max-width:732px)and (min-width: 412px){
+            form{
+                width: 90%;
+            }
+            body{
+                height: 600px;
+            }
+
+            button{
+                width: 60%;
+                margin: 10px auto;
+                color: white;
+                height: 40px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+            /*
+            FONTAWESOME ICON EYES
+            ****************************
+            ****************************
+            */
+
+            .fa{
+                margin-left:250px;
+            }
+            .eye{
+                position: absolute;
+            }
+            #hide1{
+                display: none;
+            }
+
+            }
+
+
 
 
 
         @media screen and (max-width:1024px)and (min-width: 600px){
             form{
-                width: 80%;
+                width: 70%;
             }
             body{
                 height: 850px;
@@ -243,6 +370,22 @@ RESPONSIVE DESIGN MOBILE
                 height: 40px;
                 font-size: 16px;
                 cursor: pointer;
+            }
+
+            /*
+            FONTAWESOME ICON EYES
+            ****************************
+            ****************************
+            */
+
+            .fa{
+                margin-left:300px;
+            }
+            .eye{
+                position: absolute;
+            }
+            #hide1{
+                display: none;
             }
 
             }
@@ -265,5 +408,61 @@ RESPONSIVE DESIGN MOBILE
             cursor: pointer;
         }
 
+        /*
+            FONTAWESOME ICON EYES
+            ****************************
+            ****************************
+            */
+
+            .fa{
+                margin-left:350px;
+            }
+            .eye{
+                position: absolute;
+            }
+            #hide1{
+                display: none;
+            }
+
+
+        }
+}
+
+
+
+@media screen and (max-width:1366px)and (min-width: 1024px){
+    form{
+        width: 60%;
+    }
+    body{
+        height: 1200px;
+    }
+
+    button{
+        width: 60%;
+        margin: 10px auto;
+        color: white;
+        height: 40px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    /*
+        FONTAWESOME ICON EYES
+        ****************************
+        ****************************
+        */
+
+        .fa{
+            margin-left:500px;
+        }
+        .eye{
+            position: absolute;
+        }
+        #hide1{
+            display: none;
         }
 
+
+    }
+}

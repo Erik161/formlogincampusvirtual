@@ -20,7 +20,7 @@ body{
     background: #1A2980;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #26D0CE, #1A2980); /*  coloca los colores del degradado */  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #26D0CE, #1A2980); /*  coloca los colores del degradado */  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 650px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,6 +169,4 @@ button{
     body{
         height: 600px;
     }
-
-
     }
